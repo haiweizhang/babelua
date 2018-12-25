@@ -1,0 +1,3092 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Babe.Lua.Classification.HighlightTag" Collapsed="true">
+    <Position X="32.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACIACCEQAQAAAAAEAACAA4AIEACAEAEAAAAwAsAAUA=</HashCode>
+      <FileName>Classification\HighlightTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.LuaTableDefinition" Collapsed="true">
+    <Position X="55.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\HighlightTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.LuaFunctionDefinition" Collapsed="true">
+    <Position X="29" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\HighlightTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.UserKeywordDefinition0" Collapsed="true">
+    <Position X="37.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\HighlightTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.UserKeywordDefinition1" Collapsed="true">
+    <Position X="39.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\HighlightTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.UserKeywordDefinition2" Collapsed="true">
+    <Position X="50" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\HighlightTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.UserKeywordDefinition3" Collapsed="true">
+    <Position X="51.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\HighlightTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.UserKeywordDefinition4" Collapsed="true">
+    <Position X="53.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\HighlightTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.UserKeywordDefinition5" Collapsed="true">
+    <Position X="55.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\HighlightTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.UserKeywordDefinition6" Collapsed="true">
+    <Position X="29" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\HighlightTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.UserKeywordDefinition7" Collapsed="true">
+    <Position X="30.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\HighlightTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.UserKeywordDefinition8" Collapsed="true">
+    <Position X="32.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\HighlightTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.UserKeywordDefinition9" Collapsed="true">
+    <Position X="34.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\HighlightTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.UserKeywordDefinition10" Collapsed="true">
+    <Position X="41.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\HighlightTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.UserKeywordDefinition11" Collapsed="true">
+    <Position X="43" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\HighlightTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.UserKeywordDefinition12" Collapsed="true">
+    <Position X="44.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\HighlightTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.UserKeywordDefinition13" Collapsed="true">
+    <Position X="46.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\HighlightTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.UserKeywordDefinition14" Collapsed="true">
+    <Position X="48.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\HighlightTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.LuaFrameworkDefinition" Collapsed="true">
+    <Position X="55.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\LuaClassificationFormat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.CDefinition" Collapsed="true">
+    <Position X="43" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\LuaClassificationFormat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.OrdinaryClassificationDefinition" Collapsed="true">
+    <Position X="43" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\LuaClassificationType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.LuaClassifierProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAJAABAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Classification\LuaClassifier.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.Classification.LuaClassifier" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAIAgQAAAAACAAAAAQCAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\LuaClassifier.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.Classification.LuaSyntaxErrorTaggerProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\LuaSyntaxErrorTagger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.Classification.LuaSyntaxErrorTagger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgKAAQAAAIAAAAAAAAAAAAAAAAAAAAgBCAAAAAAA=</HashCode>
+      <FileName>Classification\LuaSyntaxErrorTagger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.Classification.LuaErrorTag" Collapsed="true">
+    <Position X="50" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classification\LuaSyntaxErrorTagger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Classification.SyntaxErrorInfoExtensions" Collapsed="true">
+    <Position X="41.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Classification\LuaSyntaxErrorTagger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.DataModel.FileManager" Collapsed="true">
+    <Position X="37.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAEAAAQAAAAAAIEAAAAAAAAQAAAAIAAUoAABAAggIQ=</HashCode>
+      <FileName>DataModel\FileManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.DataModel.IntellisenseHelper" Collapsed="true">
+    <Position X="41.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AExAAAAAAgBAAAAAAAABAAAQAADASIAABAEAEAAAAAA=</HashCode>
+      <FileName>DataModel\IntellisenseHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.DataModel.LuaFile" Collapsed="true">
+    <Position X="9.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAEgAAAAAAAAABEQCAAAAAEAAABAAA=</HashCode>
+      <FileName>DataModel\LuaFile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Babe.Lua.DataModel.LuaFunction" Collapsed="true">
+    <Position X="23.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>DataModel\LuaFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.DataModel.LuaInnerTable" Collapsed="true">
+    <Position X="9.5" Y="27.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>DataModel\LuaInnerTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.DataModel.LuaMember" Collapsed="true">
+    <Position X="24.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgABAAAQAAgAEAIAAAAQAAAABAAA=</HashCode>
+      <FileName>DataModel\LuaMember.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Babe.Lua.DataModel.LuaTable" Collapsed="true">
+    <Position X="25.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAQAAAFAAAAAAA=</HashCode>
+      <FileName>DataModel\LuaTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.DataModel.TreeParser" Collapsed="true">
+    <Position X="51.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAAAEABAABAAAAAAQAAAAIAEAAIAAAAACAAAAAA=</HashCode>
+      <FileName>DataModel\TreeParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Editor.CommandFilter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAABAAAAAAAAAAAAAAABAAAAAgAABAAAAAAAABAAAA=</HashCode>
+      <FileName>Editor\CommandFilter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.Editor.EditorManager" Collapsed="true">
+    <Position X="36" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAIAAAAAAAAAAAAAAEAEAAEAAAAAAAAACAACAACIA=</HashCode>
+      <FileName>Editor\EditorManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Editor.EditorMargin" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACBQBIAAAAAIAAAAAAAAgAACAAAAAAAABAA=</HashCode>
+      <FileName>Editor\EdtiorMargin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.Editor.EditorMarginProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAEAAAAAAAAABAAAAAAAAAAAAAAAAAACABA=</HashCode>
+      <FileName>Editor\EdtiorMargin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.Editor.EncodingDecide" Collapsed="true">
+    <Position X="43" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAEACAAAAA=</HashCode>
+      <FileName>Editor\EncodingDecide.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Editor.MarkPosGlyphFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Editor\MarkPosGlyphFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.Editor.MarkPosGlyphFactoryProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Editor\MarkPosGlyphFactoryProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.Editor.MarkPosTag" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Editor\MarkPosTagger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.Editor.MarkPosTaggerProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAAAAAAAAIABAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Editor\MarkPosTagger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.Editor.MarkPosTagger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAIAAAAAAAAAAAAAAAAAAAAAAAAABAAACI=</HashCode>
+      <FileName>Editor\MarkPosTagger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.Editor.OutlineMarginControl" Collapsed="true">
+    <Position X="44.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAiABAAAAAAAAAAAAQAAAAAAEAAQIAAAAAAAA=</HashCode>
+      <FileName>Editor\OutlineMarginControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Editor.TextViewCreationListener" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAQAAACAwAAIAEAAAAgAAAAwpAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Editor\TextViewCreationListener.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.Editor.FileContentChangedEventArgs" Collapsed="true">
+    <Position X="36" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Editor\TextViewCreationListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Editor.EditorReport" Collapsed="true">
+    <Position X="41.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAABAAAAgAAAAAAACAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Editor\TextViewCreationListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Grammar.LuaCommentTerminal" Collapsed="true">
+    <Position X="37.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAgAAAAAAAAAAAAIAAAEAAAAAAAAACAUAAAAA=</HashCode>
+      <FileName>Grammar\LuaBlockCommentTerminal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Grammar.LuaGrammar" Collapsed="true">
+    <Position X="32.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAABAAAAAAAAQAKQAAAAAAAIAA=</HashCode>
+      <FileName>Grammar\LuaGrammar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Grammar.LuaLongStringTerminal" Collapsed="true">
+    <Position X="36" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAgAAAAAAAAAAAAIAAAEAAAAAAAAACAUAAAAA=</HashCode>
+      <FileName>Grammar\LuaLongStringTerminal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Grammar.LuaStringLiteral" Collapsed="true">
+    <Position X="50" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Grammar\LuaStringLiteral.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Grammar.LuaTerminalNames" Collapsed="true">
+    <Position X="29" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgEAEQkACGAIAAQ0EICAAACCEAIUBQCSAAERAAkkEA=</HashCode>
+      <FileName>Grammar\LuaTerminalNames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Helper.Logger" Collapsed="true">
+    <Position X="55.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAIAAAAAAAQAAAAAAIAAA=</HashCode>
+      <FileName>Helper\Logger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.StringExtension" Collapsed="true">
+    <Position X="37.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAABAAAAAAAAABAAAAgAA=</HashCode>
+      <FileName>Helper\StringExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Intellisense.CompletionCommandFilter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAABAAAQAAAAAIAAAAABAAAABgAAFAAAAAAACBAAAA=</HashCode>
+      <FileName>Intellisense\LuaCompletionController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.Intellisense.LuaCompletionSourceProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Intellisense\LuaCompletionSource.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.Intellisense.LuaCompletionSource" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAgACAEAQAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Intellisense\LuaCompletionSource.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.Intellisense.LuaCompletionSet" Collapsed="true">
+    <Position X="39.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAABAAAAEAgAAAAAAAAAA=</HashCode>
+      <FileName>Intellisense\LuaCompletionSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Intellisense.OutliningTaggerProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intellisense\LuaOutliner.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.Intellisense.OutliningTagger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="50" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAKAARAAAIAQAAAAAAAAAAAAAEAAAAABCAAAEAAE=</HashCode>
+      <FileName>Intellisense\LuaOutliner.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.BreakpointEventArgs" Collapsed="true">
+    <Position X="32.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\BreakpointEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.BreakpointHitEventArgs" Collapsed="true">
+    <Position X="34.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQBAAAAAAEABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\BreakpointHitEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugConnectionListener" Collapsed="true">
+    <Position X="41.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAkAQAAAAAAAAAAgAABIABA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugConnectionListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.ExceptionRaisedEventArgs" Collapsed="true">
+    <Position X="51.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAQAAAAAAAIABAAIAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\ExceptionRaisedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.Extensions" Collapsed="true">
+    <Position X="55.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAAAQCAAAAAAAAQgEAAAAAAAAAAUAQAAAAAIEAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.FrameKindExtensions" Collapsed="true">
+    <Position X="51.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\FrameKind.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.IdDispenser" Collapsed="true">
+    <Position X="34.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAIAAAAAAAAAAAAAAAAAAACAAAAAAAAAI=</HashCode>
+      <FileName>LuaTools\Debugger\IdDispenser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.LuaBreakpoint" Collapsed="true">
+    <Position X="29" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQICAAAAAACAQEQgAAAABAAAAIgAAAAIIAQgAAAIAAA=</HashCode>
+      <FileName>LuaTools\Debugger\LuaBreakpoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.LuaEvaluationResult" Collapsed="true">
+    <Position X="51.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAAAGAAABEgICBEBAAIAAQBQQAAAAwEgAEAE=</HashCode>
+      <FileName>LuaTools\Debugger\LuaEvaluationResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.LuaException" Collapsed="true">
+    <Position X="53.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAFAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\LuaException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.LuaModule" Collapsed="true">
+    <Position X="37.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQASAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\LuaModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.LuaProcess" Collapsed="true">
+    <Position X="25.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JmArrLLwV69TXOpm7/ieHGiAD5BkAmMaKpq9GSgiGPE=</HashCode>
+      <FileName>LuaTools\Debugger\LuaProcess.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.LuaStackFrame" Collapsed="true">
+    <Position X="26.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIhgARBAAAQAAAgDBAQAABBAIAAIEIQAAgBAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\LuaStackFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DjangoStackFrame" Collapsed="true">
+    <Position X="26.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAIAAAAAAAgAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\LuaStackFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.LuaThread" Collapsed="true">
+    <Position X="30.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAQAAAgAAAEAAgAEAAQAIIAAAAIAAAAAAAgBABE=</HashCode>
+      <FileName>LuaTools\Debugger\LuaThread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.ModuleLoadedEventArgs" Collapsed="true">
+    <Position X="44.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\ModuleLoadedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.OutputEventArgs" Collapsed="true">
+    <Position X="55.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAJAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\OutputEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.ProcessExitedEventArgs" Collapsed="true">
+    <Position X="32.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\ProcessExitedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.ThreadEventArgs" Collapsed="true">
+    <Position X="48.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\ThreadEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7BoundBreakpoint" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAgAgAAEMAAAAAAAAAQgAYAQEgSAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7BoundBreakpoint.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7BreakpointResolution" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAgAAAAgAAAAIAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7BreakpointResolution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7ErrorBreakpointResolution" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7BreakpointResolution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7DocumentContext" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAgEAAAAQgAIAAAAAAAAYAAAAACAAAABAAEMA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7DocumentContext.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7Engine" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BMxG+0CEGAQhKB7UImGhBWBhgKgwYmUgeL40cAILJbQ=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Engine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7EngineEventArgs" Collapsed="true">
+    <Position X="36" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7EngineEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7Enum&lt;T, I&gt;" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAKAABAAAAIAAAAAAAAAAAAAAAAAAAAAAEBA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Enums.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7FrameInfoEnum" Collapsed="true">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Enums.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7PropertyInfoEnum" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Enums.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7ThreadEnum" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Enums.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7ModuleEnum" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Enums.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7PropertyEnum" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Enums.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7CodeContextEnum" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Enums.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7BoundBreakpointsEnum" Collapsed="true">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Enums.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7AsynchronousEvent" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Events.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7StoppingEvent" Collapsed="true">
+    <Position X="6.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Events.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7SynchronousEvent" Collapsed="true">
+    <Position X="18.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Events.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7EngineCreateEvent" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Events.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7ProgramCreateEvent" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Events.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7ExpressionEvaluationCompleteEvent" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAgAAAAAE=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Events.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7ModuleLoadEvent" Collapsed="true">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAIAAAAAAAABAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Events.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7ProgramDestroyEvent" Collapsed="true">
+    <Position X="18.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEE=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Events.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7ThreadCreateEvent" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Events.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7ThreadDestroyEvent" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAEE=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Events.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7LoadCompleteEvent" Collapsed="true">
+    <Position X="1" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Events.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7AsyncBreakCompleteEvent" Collapsed="true">
+    <Position X="3.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Events.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7SteppingCompleteEvent" Collapsed="true">
+    <Position X="5.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Events.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7BreakpointBoundEvent" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAQAAAIAAAAAAABAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Events.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7EntryPointEvent" Collapsed="true">
+    <Position X="7.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Events.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7BreakpointEvent" Collapsed="true">
+    <Position X="10" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAE=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Events.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7DebugExceptionEvent" Collapsed="true">
+    <Position X="12.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEgCIAAAAAAAAEAIAAAAAAAAAAAAAAAAAACAAAAAE=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Events.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7DebugOutputStringEvent2" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Events.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7MemoryAddress" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAYgAAAKAAAAAAAAAEgIAAJAgAAAFAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7MemoryAddress.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7Module" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAgAAAAAEAAAAAEQAAEBBAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Module.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7PendingBreakpoint" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAKAigAgAABAAAgAAwQAAAIAYACIABQAQABA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7PendingBreakpoint.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7ProgramNode" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAQAAAAAIAQAAAAEIAAAAAAAAAAABAAAAAQA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7ProgramNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7ProgramProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAQAAAAQABAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7ProgramProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7Property" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIIAAAAAAAAAAIiAAQAAASACAIAAEAAAAAAAgAQAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Property.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7StackFrame" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="50" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAOAABQLEggEAAGABAAABCBAAABYIBAABAAgQAFE=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7StackFrame.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.AD7Thread" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgABAkgQICAAEAIJAAAABAQBAiAAAABYABAAAIAAEQA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\AD7Thread.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.BreakpointManager" Collapsed="true">
+    <Position X="36" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAAAAAACAAgAABAAABAAAAAAAIAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\BreakpointManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.DebuggerConstants" Collapsed="true">
+    <Position X="43" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAARFgABACgAgAAAAAAGAAQAAAAAAQQAAgIEAAAhA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\DebuggerConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.DBG_ATTRIB_FLAGS" Collapsed="true">
+    <Position X="39.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIAAIUSDCAAExAQFAAgJAAAgAAXTAAEAJDgigAIAQA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\DebuggerConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.EngineUtils" Collapsed="true">
+    <Position X="44.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAgAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\EngineUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.DebugEngine.UncalculatedAD7Expression" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAQAgAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\UncalculatedAD7Expression.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.Remote.LuaRemoteDebugPort" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kgAAAABAAAAAAAAAAIABAIAAAAAAQAAAAAAQIBAIAMA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\Remote\LuaRemoteDebugPort.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.Remote.LuaRemoteDebugPortSupplier" Collapsed="true">
+    <Position X="14.75" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAEABAACQAAAAAIIYAAIAAAAAAAAAAAAACAAAAAEA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\Remote\LuaRemoteDebugPortSupplier.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.Remote.LuaRemoteDebugPortSupplierUnsecured" Collapsed="true">
+    <Position X="13.5" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAM=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\Remote\LuaRemoteDebugPortSupplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.Remote.LuaRemoteDebugPortSupplierSsl" Collapsed="true">
+    <Position X="15.75" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAM=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\Remote\LuaRemoteDebugPortSupplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.Remote.LuaRemoteDebugProcess" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABQAAAAABIEoCgQAAAIAAAIAAgEAQAAIGAQIABAE=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\Remote\LuaRemoteDebugProcess.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.Remote.LuaRemoteDebugProgram" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACQAAAAABBA4AAIABAQBBAIggAgQAIBAEAAAJBAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\Remote\LuaRemoteDebugProgram.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.Remote.LuaRemoteEnumDebug&lt;T&gt;" Collapsed="true">
+    <Position X="23.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAAAABAAAAAkAAAAAAAABAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\Remote\LuaRemoteEnumDebug.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.Remote.LuaRemoteEnumDebugProcesses" Collapsed="true">
+    <Position X="22.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAIAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\Remote\LuaRemoteEnumDebugProcesses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.Remote.LuaRemoteEnumDebugPrograms" Collapsed="true">
+    <Position X="24.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\Remote\LuaRemoteEnumDebugPrograms.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Debugger.Remote.LuaRemoteProcess" Collapsed="true">
+    <Position X="25.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggGAQAAAAARAAAgAAAAAAAAAAAAAQAAABAAQIBAAEEA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\Remote\LuaRemoteProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.OnPortOpenedHandler" Collapsed="true">
+    <Position X="39.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\OnPortOpenedHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Extensions" Collapsed="true">
+    <Position X="29" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAIAAEBQAAAAEUACAAAAWAQQAAAACAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.LuaClassifier" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgABAEAAAAAAAAAAAACAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>LuaTools\LuaClassifier.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.ClassifierExtensions" Collapsed="true">
+    <Position X="44.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\LuaClassifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.LuaClassifierProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAgAAAAEAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>LuaTools\LuaClassifierProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.OperatorFormat" Collapsed="true">
+    <Position X="41.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\LuaClassifierProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.GroupingFormat" Collapsed="true">
+    <Position X="53.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\LuaClassifierProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.CommaFormat" Collapsed="true">
+    <Position X="48.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\LuaClassifierProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.DotFormat" Collapsed="true">
+    <Position X="29" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\LuaClassifierProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.LuaConstants" Collapsed="true">
+    <Position X="44.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EKABACEgQAJABkBAgCQAA0QgRgAswKgpAA0QEjEGAJA=</HashCode>
+      <FileName>LuaTools\LuaConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.LuaCoreConstants" Collapsed="true">
+    <Position X="46.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAEAABAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>LuaTools\LuaCoreConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.LuaPredefinedClassificationTypeNames" Collapsed="true">
+    <Position X="39.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAIEA=</HashCode>
+      <FileName>LuaTools\LuaPredefinedClassificationTypeNames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.ProvideEditorExtension2Attribute" Collapsed="true">
+    <Position X="53.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAogACIAAJkICAAAgIBpAARAQAAAIACAAAAEAA=</HashCode>
+      <FileName>LuaTools\ProvideEditorExtension2Attribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Resources" Collapsed="true">
+    <Position X="36" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Editor.LanguagePreferences" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIEAAAQAAAACAAAAAAAAABAgAAAAQBAAAAMgAAAAAA=</HashCode>
+      <FileName>LuaTools\Editor\LanguagePreferences.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Intellisense.ReverseExpressionParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QSAAgEAgAAAgABAAIABAEAAAAAQBAAAAACAgBAcBQgA=</HashCode>
+      <FileName>LuaTools\Intellisense\ReverseExpressionParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Boyaa.LuaDebug" Collapsed="true">
+    <Position X="48.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBkIAAAIAggAQAAAAgAgBCwAIAAAEEACkAABJAAAADQ=</HashCode>
+      <FileName>LuaTools\LuaDebug.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.LuaProject" Collapsed="true">
+    <Position X="41.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAQAYBQAEABAAABgAAAAAAACAGAigAA=</HashCode>
+      <FileName>LuaTools\LuaProject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Navigation.CodeWindowManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIBAJAAAgAIAAAQAAAgAAAABCAggAAEAAAAAQAAABQ=</HashCode>
+      <FileName>LuaTools\Navigation\CodeWindowManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Navigation.LuaFileLibraryNode" Collapsed="true">
+    <Position X="20" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAQAAAAAAAAAAABAAAEAgAA=</HashCode>
+      <FileName>LuaTools\Navigation\LuaFileLibraryNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Navigation.LuaLanguageInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAABIAECACAAgAAAAAAAEAAIIQAGAAABAAA=</HashCode>
+      <FileName>LuaTools\Navigation\LuaLanguageInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Navigation.LuaLibraryManager" Collapsed="true">
+    <Position X="17.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAACAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAQAAAAA=</HashCode>
+      <FileName>LuaTools\Navigation\LuaLibraryManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Navigation.LuaLibraryNode" Collapsed="true">
+    <Position X="22.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAIAAAFA=</HashCode>
+      <FileName>LuaTools\Navigation\LuaLibraryNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Language.TextViewFilter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAQAAAAAACAAAAAABI0AAAQAAFAAAE=</HashCode>
+      <FileName>LuaTools\Navigation\TextViewFilter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Project.DefaultLauncherProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAQAAAQAAA=</HashCode>
+      <FileName>LuaTools\Project\DefaultLauncherProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Project.DefaultLuaLauncher" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAEIEAABQBCAAAACAgAgAAAIEARAAARAIAAAAGAAA=</HashCode>
+      <FileName>LuaTools\Project\DefaultLuaLauncher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Project.DefaultLuaLauncherOptions" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QFAIQAEQECQgEIAgAICBAADDiIAAAgAEYAAAAgEAALA=</HashCode>
+      <FileName>LuaTools\Project\DefaultLuaLauncherOptions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Project.ILuaProjectExtensions" Collapsed="true">
+    <Position X="37.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Project\ILuaProject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Project.LuaEditorFactory" Collapsed="true">
+    <Position X="10.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Project\LuaEditorFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Project.LuaEditorFactoryPromptForEncoding" Collapsed="true">
+    <Position X="10.5" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Project\LuaEditorFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Project.LuaFileNode" Collapsed="true">
+    <Position X="8" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAgJQAAAAAQAAAQCABAACBAAAA=</HashCode>
+      <FileName>LuaTools\Project\LuaFileNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Project.LuaGeneralPropertyPage" Collapsed="true">
+    <Position X="25.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAACEABAAAIAAAAAACAQAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Project\LuaGeneralPropertyPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Project.LuaGeneralPropertyPageControl" Collapsed="true">
+    <Position X="30.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABARAAQIClCAAAIBACAAAACgAAIBAAABAAAAASAACA=</HashCode>
+      <FileName>LuaTools\Project\LuaGeneralPropertyPageControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Project.LuaProjectConfig" Collapsed="true">
+    <Position X="22.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>LuaTools\Project\LuaProjectConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Project.LuaProjectFactory" Collapsed="true">
+    <Position X="6.5" Y="26" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>LuaTools\Project\LuaProjectFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Project.LuaProjectNode" Collapsed="true">
+    <Position X="1.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAhoAAFAkCAEECAAFAQQIwFAAAAIgAAEAAAAABAiEEA=</HashCode>
+      <FileName>LuaTools\Project\LuaProjectNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.LuaTools.Project.LuaProjectPackage" Collapsed="true">
+    <Position X="20.5" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBAAAAAIAgAAAAAAAAAAAAAACAAACAAAIAAACAAAAAg=</HashCode>
+      <FileName>LuaTools\Project\LuaProjectPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Package.BabePackage" Collapsed="true">
+    <Position X="0.5" Y="26" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QB4wAJACAqyBSSCAAACGIgABkQACQAAhBAJUABjAEGA=</HashCode>
+      <FileName>Package\BabePackage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Babe.Lua.Package.DTEHelper" Collapsed="true">
+    <Position X="32.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQEAAAAAAAAAAAAgAEQAAAAAAQAIAECghICAAAAUCg=</HashCode>
+      <FileName>Package\DTEHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Package.GuidList" Collapsed="true">
+    <Position X="55.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAMAEAAAAAAAAAAAGAAAAAAAIAAAggAA=</HashCode>
+      <FileName>Package\Guids.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Package.KeyBindingSet" Collapsed="true">
+    <Position X="43" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Package\KeyBindingSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Package.LuaSet" Collapsed="true">
+    <Position X="48.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAgAAACAAAAAAAAAAAAAAAQAgAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Package\LuaSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Package.MiniDump" Collapsed="true">
+    <Position X="41.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Package\MiniDump.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Package.OleComponent" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAIAAAAAAAAAABAAQAAgAAABAAAEQEAAgAAAE=</HashCode>
+      <FileName>Package\OleComponent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.Package.PkgCmdIDList" Collapsed="true">
+    <Position X="30.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAChAAAAEABCACAAAAAAwBAMAEAAAAQAAAAAAAKAAAA=</HashCode>
+      <FileName>Package\PkgCmdID.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Package.SettingConstants" Collapsed="true">
+    <Position X="48.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAQYAAACAAACAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Package\Setting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Package.Setting" Collapsed="true">
+    <Position X="46.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADiMSIAAAEDAQBLCIAAAMAAQiAGgAAAEQAAABIBAQAE=</HashCode>
+      <FileName>Package\Setting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Package.KeyWordSettings" Collapsed="true">
+    <Position X="44.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAAAAAAAAAAAAAQAIAAIAAAAAAQAAAgAAAAAA=</HashCode>
+      <FileName>Package\Setting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Package.UnhandledExceptionCatcher" Collapsed="true">
+    <Position X="32.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Package\UnhandledExceptionCatcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Package.WindowFrameSink" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAAAQAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Package\WindowFrameSink.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.Properties.Resources" Collapsed="true">
+    <Position X="34.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACCABIAAAAIAAQBAAAREAAAAQAgAAAAAAgBQCDAAoA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.Properties.Settings" Collapsed="true">
+    <Position X="50" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.LuaTools.Properties.Settings" Collapsed="true">
+    <Position X="51.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.AllFilesProjectElement" Collapsed="true">
+    <Position X="15.5" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEABAAgAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\AllFilesProjectElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.AssemblyReferenceNode" Collapsed="true">
+    <Position X="14.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCCJAACAACAAgEAoABAACBABACIAIGAAAEACAABQ=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\AssemblyReferenceNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.LocDisplayNameAttribute" Collapsed="true">
+    <Position X="53.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.BuildDependency" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAYAAAQAgAAQAEAAAAAAAAAAAAAAEQAAAACAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\BuildDependency.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.CommonConfigProvider" Collapsed="true">
+    <Position X="23.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEABAAAAAAAAACAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\CommonConfigProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.CommonEditorFactory" Collapsed="true">
+    <Position X="10.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgACAAAAAAAAAAAAEAIACAAAAAAgEAAAAQAAAKBAEg=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\CommonEditorFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.CommonFileNode" Collapsed="true">
+    <Position X="6.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgAAAAAAIEAAAIgACAgIGAAAAAQAAAAAAAIgEACUAg=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\CommonFileNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.CommonFolderNode" Collapsed="true">
+    <Position X="10.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAEACAAAgCAgpAAABAAQAAAAAAAAAACCEAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\CommonFolderNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.CommonNonCodeFileNode" Collapsed="true">
+    <Position X="5.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\CommonNonCodeFileNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.CommonProjectConfig" Collapsed="true">
+    <Position X="22.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\CommonProjectConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.CommonProjectNode" Collapsed="true">
+    <Position X="1.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIhsziQNCSBMkzIhL9qbITOEiPLQugyEiGw7I0KkW08=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\CommonProjectNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.CommonProjectNodeProperties" Collapsed="true">
+    <Position X="10" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>A0kABBAAgBWAESBAQApAACQGgGggBAIIwAAEAAQAEII=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\CommonProjectNodeProperties.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.CommonProjectPackage" Collapsed="true">
+    <Position X="20.5" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>0JAAAACAIiAAAQAQAAABgQQACgAgiDAAIEQECAgAAAk=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\CommonProjectPackage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.CommonPropertyPage" Collapsed="true">
+    <Position X="25.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAqAAQEABAAAMigAiAgCIQAAAAAAAAAAAAJAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\CommonPropertyPage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.CommonReferenceContainerNode" Collapsed="true">
+    <Position X="12.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAIAAAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\CommonReferenceContainerNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ConfigProvider" Collapsed="true">
+    <Position X="23.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAWAgFQBAAIIAhAAACgAABAEAQ5MAAAABCAEEAAAEQQ=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ConfigProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.DataCacheEntry" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAAAAAEAAACAAAAAgAABAAAAAwAABAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\DataObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.DataObject" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAEAABAAAAAAAAAARgAAICAQAAAQAAEAACIAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\DataObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.DragDropHelper" Collapsed="true">
+    <Position X="30.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAgAEAAAAAAAAAAABACBAAAAAAAAAACABAACQAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\DataObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.EnumSTATDATA" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="50" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAgAAAAACAACIAAAAAAAgAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\DataObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.EnumFORMATETC" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAgACAAAAAAAIAAAAAAAAAAgAACAAAAAEAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\DataObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.DependentFileNode" Collapsed="true">
+    <Position X="3.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAIgAAAAAAAAgAAAIAAAAAAAAAAAAAAAAABAQAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\DependentFileNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.DesignPropertyDescriptor" Collapsed="true">
+    <Position X="51.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAEAAAZBAQAgAQQAAAAAAAAAAAAAwABAQCAAAAAAE=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\DesignPropertyDescriptor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.DirtyChangedEventArgs" Collapsed="true">
+    <Position X="55.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAABAAAAAAAAAAAABAAAACAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\DirtyChangedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.DocumentManager" Collapsed="true">
+    <Position X="6.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAQIQAAAAgIAEAAAQAACAAIAAQAAAAAAABACGAAAE=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\DocumentManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.EnumDependencies" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAACAAAABAAAAAAAAAAAAAAAAAAAAAAAIAAAEBA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\EnumDependencies.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ExtensibilityEventsDispatcher" Collapsed="true">
+    <Position X="53.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAEACAAAAAAAAAEACAAAAAAgAAACAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ExtensibilityEventsDispatcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ExternDll" Collapsed="true">
+    <Position X="30.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQkwQBAEAA5AAEIAAAgwAExCAoAJCBAAQAAIFAAQMA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Misc\ExternDll.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.FileChangeManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMACACAACAABAAAEIAAAACAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\FileChangeManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.FileDocumentManager" Collapsed="true">
+    <Position X="5.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAIAAAAAAAAAAAAAAQAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\FileDocumentManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.FileNode" Collapsed="true">
+    <Position X="5.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FolACEiAEgFBIIEQgJAC5CAIAAAkAAAQyAAQAIZEQAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\FileNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.FolderNode" Collapsed="true">
+    <Position X="10.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hIAAEAKAAgFAAEAAgIgCJAAABAIOAAAgCAAQAAASAUQ=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\FolderNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.HierarchyNode" Collapsed="true">
+    <Position X="9" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>lYhwCw7oiqNAuhAwkrgi5FB8DAtwgkihDIIcAALVcMw=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\HierarchyNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.IDEBuildLogger" Collapsed="true">
+    <Position X="36" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YCACEEAAGAICAQoEAAgIAIIAQQBjwiQgASAEAzDAhAQ=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\IDEBuildLogger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ImageHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACAAAAABkAAAAQAAACAAAAAAAAAgAACCAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ImageHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.LocalizableProperties" Collapsed="true">
+    <Position X="7.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAACAAAAAAgAAAAgAAAABAEIAAAAERAAAAACAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\LocalizableProperties.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ConnectionPointContainer" Collapsed="true">
+    <Position X="1.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAEAAAAAQIAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Misc\ConnectionPointContainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ConnectionPoint&lt;SinkType&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAgBAAgAAAKAAAEAAAAAAACAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Misc\ConnectionPointContainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.MsBuildProjectElement" Collapsed="true">
+    <Position X="17.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAQAgAAAAAAUABAAAIAAQAAAAAAAggA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\MsBuildProjectElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.NativeMethods" Collapsed="true">
+    <Position X="50" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>zbrZr+/uT/fP5/nu///b//f9j97d/8r77+/vt/93f34=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Misc\NativeMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.CredUI" Collapsed="true">
+    <Position X="34.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCEgAgA4AAQgAAAAAAgACggIAQAFAAAAAaAiAQAoAKA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Misc\NativeMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.AutomationBrowsableAttribute" Collapsed="true">
+    <Position X="55.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\NodeProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.NodeProperties" Collapsed="true">
+    <Position X="7.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQACAAAAAAAAAQAAAAIEAAQAAAEgAggAAABECAEAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\NodeProperties.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.FileNodeProperties" Collapsed="true">
+    <Position X="3.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAACAgIQAAAAAAAABAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\NodeProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ExcludedFileNodeProperties" Collapsed="true">
+    <Position X="1" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\NodeProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.IncludedFileNodeProperties" Collapsed="true">
+    <Position X="3.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAEAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\NodeProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.LinkFileNodeProperties" Collapsed="true">
+    <Position X="5.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\NodeProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.DependentFileNodeProperties" Collapsed="true">
+    <Position X="7.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAABAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\NodeProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.BuildActionTypeConverter" Collapsed="true">
+    <Position X="39.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAABAAAAAAAAAAAAAAAAACAAQAIAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\NodeProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ProjectNodeProperties" Collapsed="true">
+    <Position X="10" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAABAAAAAAAAAACAAAAAggJAgAAAwAAAFAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\NodeProperties.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.FolderNodeProperties" Collapsed="true">
+    <Position X="12.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAABAAAAAAAAAAAAAAAAAAAIAAAAAAAAABAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\NodeProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ReferenceNodeProperties" Collapsed="true">
+    <Position X="14.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAQAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\NodeProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ProjectReferencesProperties" Collapsed="true">
+    <Position X="14.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\NodeProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.OleServiceProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAAAAAEAAAAAAAAAAAAAAAAAAgAKAAAAQ=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\OleServiceProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Output" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQQAAAAAAAAAAAAAAAAACAgAQBAAAAAAAACAABA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Output.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.OutputGroup" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAIgABgQbAAAAAADAACAAAAIAAQAAggAAAUACAABA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\OutputGroup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ProjectConfig" Collapsed="true">
+    <Position X="22.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCEEJABBAAkaSFCCCgAAEAAEgBYEFKACAAGQDJUEA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProjectConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.BuildableProjectConfig" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADCAAAACgAACAAAAABABAMIAAQAgAAAIABAEABQAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProjectConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ProjectDesignerDocumentManager" Collapsed="true">
+    <Position X="7.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProjectDesignerDocumentManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ProjectDocumentsListener" Collapsed="true">
+    <Position X="24.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAkAJAICAAACAAEBAAAAAAgACJAAAAAQAjAEAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProjectDocumentsListener.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ProjectDocumentsListenerForStartupFileUpdates" Collapsed="true">
+    <Position X="24.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAkAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProjectDocumentsListenerForStartupFileUpdates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ProjectElement" Collapsed="true">
+    <Position X="16.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAEAAAAAAAAwAhAACEEARAAAAAIAAQACAAAAAgiA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProjectElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ProjectFactory" Collapsed="true">
+    <Position X="6.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgBAgAIAQBAAAAAAAAAACAACCAQAACAI=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProjectFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.MsBuildTarget" Collapsed="true">
+    <Position X="48.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAACAABAAAAAAAAAgAAAACAAAAAAQAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProjectFileConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.MsBuildGeneratedItemType" Collapsed="true">
+    <Position X="46.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProjectFileConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ProjectFileConstants" Collapsed="true">
+    <Position X="37.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABAAigAkDSlAAAAAIgGGSCkggDBKKAiAYSQQAQBFA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProjectFileConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ProjectFileAttributeValue" Collapsed="true">
+    <Position X="36" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAgAAAAAAAQAAAAAABAAAEAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProjectFileConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ProjectFileValues" Collapsed="true">
+    <Position X="39.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProjectFileConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.DefaultSortOrderNode" Collapsed="true">
+    <Position X="50" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQgAAAAIAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProjectFileConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ProjectNode" Collapsed="true">
+    <Position X="1.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>vaP8/b7sGr3bv1Hff/7+vrdf9r//z9+//Rvdy//Rf/8=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProjectNode.CopyPaste.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ProjectPackage" Collapsed="true">
+    <Position X="20.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAQABAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProjectPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ProjectReferenceNode" Collapsed="true">
+    <Position X="17" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIACCFYCAgAAgAEgAIACBAQCAAAQABAACAAAAECACgA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProjectReferenceNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.SRDescriptionAttribute" Collapsed="true">
+    <Position X="36" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProjectResources.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.SRCategoryAttribute" Collapsed="true">
+    <Position X="34.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProjectResources.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.SR" Collapsed="true">
+    <Position X="32.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>6iAShQhydlgQo2DxjvtAL7AmWf1sRAht6BIAnDVyWPE=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProjectResources.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.PropertiesEditorLauncher" Collapsed="true">
+    <Position X="43" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\PropertiesEditorLauncher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.PublishFailedException" Collapsed="true">
+    <Position X="55.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\PublishFailedException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.PublishFile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAQAAAAAAgAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\PublishFile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.PublishProject" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAABAAAQAAAAABAAAAAAAAIAYAAAAAABAAAACAEIA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\PublishProject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.PublishProjectOptions" Collapsed="true">
+    <Position X="32.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAACAAAAAAIAAEAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\PublishProjectOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ReferenceContainerNode" Collapsed="true">
+    <Position X="12.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABICACgIAUAAKAgggACJAFAAAYRQAAAGEAQAABAARA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ReferenceContainerNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ReferenceNode" Collapsed="true">
+    <Position X="15.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBAAGagAAEAAAAAgACiJAAAAAAQAAAAGAAQAABAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ReferenceNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.LocalizableDisplayNameAttribute" Collapsed="true">
+    <Position X="51.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Resources.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.DynamicProjectSR" Collapsed="true">
+    <Position X="34.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAABB4IxBAKAAIBAAADAAAQRAgxAAAAgAAAiQAAKA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Resources.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.SolutionListener" Collapsed="true">
+    <Position X="21.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACRBQoCAQCCAAEAIAJAAACgQBAAAYAQAiiAIAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\SolutionListener.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.SolutionListenerForBuildDependencyUpdate" Collapsed="true">
+    <Position X="20.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\SolutionListenerForBuildDependencyUpdate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.SolutionListenerForProjectOpen" Collapsed="true">
+    <Position X="22.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\SolutionListenerForProjectOpen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.AfterProjectFileOpenedEventArgs" Collapsed="true">
+    <Position X="53.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\StructuresEnums.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.BeforeProjectFileClosedEventArgs" Collapsed="true">
+    <Position X="30.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAAAgAAEAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\StructuresEnums.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.ProjectPropertyChangedArgs" Collapsed="true">
+    <Position X="41.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAEAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\StructuresEnums.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.HierarchyNodeEventArgs" Collapsed="true">
+    <Position X="30.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\StructuresEnums.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.FileChangedOnDiskEventArgs" Collapsed="true">
+    <Position X="32.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAACIAAAAgAAAAAAAAAAAAAAAAEAAAABAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\StructuresEnums.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.SuspendFileChanges" Collapsed="true">
+    <Position X="39.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAMAAAAAABAAAACAAAAAAAAgAAAg=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\SuspendFileChanges.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.TaskProgressBar" Collapsed="true">
+    <Position X="12.75" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgAQAAAAAAgAAAAAAAEAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\TaskProgressBar.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.TrackDocumentsHelper" Collapsed="true">
+    <Position X="50" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAgICAQAAAACAAAAAAAAAEAgAAAAAAAU=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\TrackDocumentsHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.UIThread" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="55.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACEAAQgAIAAAAAAAQABAAASAQAAAAAGQAAI=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\UIThread.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.UIThreadSynchronizer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAYABAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\UIThreadSynchronizer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.UnsafeNativeMethods" Collapsed="true">
+    <Position X="34.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAEIAgQAAABAIAIAAACAIAAAIAAAAACBAAAgA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Misc\UnsafeNativeMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.UpdateSolutionEventsListener" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAAgAAACACAAAAEAAAAQAQAAFBAAAAAQAgBAAABAI=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\UpdateSolutionEventsListener.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Utilities" Collapsed="true">
+    <Position X="36" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RiAAAIAAAgAAgAADAAGQUUAQIIYQAAAAECAQARCAIQQ=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Utilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.VirtualProjectElement" Collapsed="true">
+    <Position X="15.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAgAAAAAAAAAAAAIAAQABAAAAAggA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\VirtualProjectElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.VsMenus" Collapsed="true">
+    <Position X="39.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAwQAACAQAAIAQAIAIEAIAAAgAIAAEAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\VsCommands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.UIHierarchyUtilities" Collapsed="true">
+    <Position X="53.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\VSShellUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.WaitDialog" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAIAACAACAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\WaitDialog.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.WebPiComponentPickerControl" Collapsed="true">
+    <Position X="43" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAKAAAACAgBAADBASAAACSAJEgIAAkAGAAAEQAQAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\WebPiComponentPickerControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.AutomationScope" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAAAAAAEIAAAADAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\AutomationScope.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.OAAssemblyReference" Collapsed="true">
+    <Position X="21.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAUAQAAAAEgAAAQAAUAAAAAAAUAAAAAQAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\VSProject\OAAssemblyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.OAFileItem" Collapsed="true">
+    <Position X="20.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJAAAAAAMAAAAAAAAAQAAAAAAAACgBABAAEAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\OAFileItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.OAFolderItem" Collapsed="true">
+    <Position X="22.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\OAFolderItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.OANavigableProjectItems" Collapsed="true">
+    <Position X="3.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAEABAABAAAAAASAQkCAgAIAAAAgAAAAAAACA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\OANavigableProjectItems.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.OANullProperty" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQSAAAAAABAAQABgAAAQQAQAgAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\OANullProperty.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.OAProject" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAJQAAABEUIIhQBAMCAQAAAkAAAAAoBgFCABCAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\OAProject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.PropertyNameAttribute" Collapsed="true">
+    <Position X="44.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\OAProject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.OAProjectConfigurationProperties" Collapsed="true">
+    <Position X="2.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAADCFgIgAAAIgQCkEACgKQAEIAAQAISAEABFBAIE=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\OAProjectConfigurationProperties.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.OAProjectItem" Collapsed="true">
+    <Position X="19" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQQAQJAAAABEYAAgQACMDCQBCAkAAAACgBAFAAFCAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\OAProjectItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.OAProjectItems" Collapsed="true">
+    <Position X="3.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAEAAAAAAAAAAgAAAggAAAAAAAggAAAAAAACA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\OAProjectItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.OAProperties" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="55.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAYAAAACABAAABAAIAAAQCQEAAIAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\OAProperties.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.OAProperty" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQSAAAAAABAAQAJgAAAQQAQAgAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\OAProperty.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.OAReferenceFolderItem" Collapsed="true">
+    <Position X="15.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\OAReferenceFolderItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.OAReferenceItem" Collapsed="true">
+    <Position X="18" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAYAAAAAAAAAQAAAEAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\OAReferenceItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.OAProjectReference" Collapsed="true">
+    <Position X="19.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAIAAEAAAAQAAQAAAAAAAUAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\VSProject\OAProjectReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.OAReferenceBase" Collapsed="true">
+    <Position X="20.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAAUgQAIAQEgEBAYACUAAAAAAAUAMAAAQAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\VSProject\OAReferenceBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.OAReferences" Collapsed="true">
+    <Position X="0.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BA4AAAAAAAAAoBAAQAhAQAQFCAAIAAAAAAAEAAQDAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\VSProject\OAReferences.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.OAVSProject" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBQAAAAAAABAAAAEAAAECAAAAgkwEBIAgAAAAAAACAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\VSProject\OAVSProject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.OAVSProjectEvents" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACAAAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\VSProject\OAVSProject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Project.Automation.OAVSProjectItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAAAAAAAAAAAAAAAAACAAAAAAAIAACACAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Automation\VSProject\OAVSProjectItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Command" Collapsed="true">
+    <Position X="50" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABgAAAIAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.CommonConstants" Collapsed="true">
+    <Position X="53.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACiBEAAFghBAIAAMohABAAAASDIERAACgJACABQAAYA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\CommonConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.CommonPackage" Collapsed="true">
+    <Position X="0.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAQAgCAICAAASEQNACBACQAAgCAgBAAAEREIhgABAE=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\CommonPackage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.ComponentManagerEventArgs" Collapsed="true">
+    <Position X="30.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\CommonPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.CommonUtils" Collapsed="true">
+    <Position X="55.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gkEAgoAAAAAAABAAAgABAAAgAAAACAAAkgGAAAIABAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\CommonUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.ProvideDebugEngineAttribute" Collapsed="true">
+    <Position X="46.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAABAAQAAAAABAACAAAAAAAAAEAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProvideDebugEngineAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.ProvideDebugExceptionAttribute" Collapsed="true">
+    <Position X="48.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAgCAgAAAABAAAAAAAABAAgEAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProvideDebugExceptionAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.DeveloperActivityAttribute" Collapsed="true">
+    <Position X="53.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAgAAAAAAAABAAAAAAAQAAAAEAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\DeveloperActivityAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.DialogWindowVersioningWorkaround" Collapsed="true">
+    <Position X="11.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\DialogWindowVersioningWorkaround.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.OverwriteFileDialog" Collapsed="true">
+    <Position X="10.5" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAgAAAAQAAAACIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\OverwriteFileDialog.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.ProvideDebugLanguageAttribute" Collapsed="true">
+    <Position X="50" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAAQAEAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProvideDebugLanguageAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.ProvideDebugPortSupplierAttribute" Collapsed="true">
+    <Position X="51.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAABAAAAAAAABAAAAAAAAACAAEAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProvideDebugPortSupplierAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.ProjectEventArgs" Collapsed="true">
+    <Position X="34.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\SolutionEventsListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.SolutionEventsListener" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAKiCSBQgCgSSAAAEAogJUAACgQIABAYgQAErAIABQI=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\SolutionEventsListener.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.VsExtensions" Collapsed="true">
+    <Position X="37.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAABAAAAAAAAAAAAAAAAQAAAgAAAIAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\VsExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Navigation.CommonLibraryNode" Collapsed="true">
+    <Position X="22.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJAAAEAAAAEBAAAEAAAAAAAABAAQAAIAEAAEAAgAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Navigation\CommonLibraryNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Navigation.HierarchyEventArgs" Collapsed="true">
+    <Position X="29" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAwAoAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Navigation\HierarchyListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Navigation.LibraryManager" Collapsed="true">
+    <Position X="17.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAACAgAhCAiAAAACKAAgQARCAQBgEABBAABgaCIEAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Navigation\HierarchyListener.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Navigation.Library" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkQAAAAAAAARAAEAAoQIAgAAAAAIACSAAAQBBABMAAQ=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Navigation\Library.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Navigation.LibraryNode" Collapsed="true">
+    <Position X="20" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEwkICEAmAACAJUAACAaUAYQAAFBQEACIABBAIAKgXA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Navigation\LibraryNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Navigation.LibraryTask" Collapsed="true">
+    <Position X="50" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQIAAAAAAAASAIAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Navigation\LibraryTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Navigation.ModuleId" Collapsed="true">
+    <Position X="43" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAABAIAAAAEgAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Navigation\ModuleId.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Navigation.ProjectLibraryNode" Collapsed="true">
+    <Position X="17.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAACAAAAAAAAABAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Navigation\ProjectLibraryNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Navigation.SimpleObject" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgkAAEACAACAJAAAAACAAQAAAFAAEAAIAABAAAAgVA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Navigation\SimpleObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Navigation.SimpleObjectList&lt;T&gt;" Collapsed="true">
+    <Position X="20" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EoUQBACAMgIAIwAgIACEURQKBAgAgGAGAAACBEEAgQI=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Navigation\SimpleObjectList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.VisualStudioTools.Navigation.TextLineEventListener" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAgICAAAAQAAARAkAAARAAAgAAQAAAAAAJAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Navigation\TextLineEventListener.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.TextMarker.FindWordFormatDefination" Collapsed="true">
+    <Position X="39.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TextMarker\FindWordFormatDefination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.TextMarker.FindWordTag" Collapsed="true">
+    <Position X="41.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TextMarker\FindWordTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.TextMarker.FindWordTagger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAQIAAYAAAMASAgAABAAiEAAAFAAEAAAAAABAAAAA=</HashCode>
+      <FileName>TextMarker\FindWordTagger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.TextMarker.FindWordTaggerProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAARAAAAAAAAIABAAAAAAAAAAAAAUAAAAAAAAAAAAA=</HashCode>
+      <FileName>TextMarker\FindWordTagger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.ToolWindows.FolderWindow" Collapsed="true">
+    <Position X="46.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IwICnggAgQRAACBmBCADCiIKAwEgACSAAACAA0qAgKA=</HashCode>
+      <FileName>ToolWindows\FolderWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.ToolWindows.FolderWindowItem" Collapsed="true">
+    <Position X="48.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAABAIAAAAAAAAAAAhAAAA=</HashCode>
+      <FileName>ToolWindows\FolderWindowItem.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.ToolWindows.FolderWndPane" Collapsed="true">
+    <Position X="50" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAAAAAAABAAAAAAACAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ToolWindows\FolderWndPane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.ToolWindows.OutlineWindow" Collapsed="true">
+    <Position X="46.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAIKEAgAAABAQABIBCABICAAAAAAACAAAAAAARCAAAQ=</HashCode>
+      <FileName>ToolWindows\OutlineWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.ToolWindows.OutlineWndPane" Collapsed="true">
+    <Position X="48.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAAAAAAABAAAAAAACAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ToolWindows\OutlineWndPane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.ToolWindows.SearchToolControl" Collapsed="true">
+    <Position X="41.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAglQAAAAAAAAAAABgAAAgAAEAAAAAAAkAAA=</HashCode>
+      <FileName>ToolWindows\SearchControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.ToolWindows.SearchListItem" Collapsed="true">
+    <Position X="39.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAEAAAAAAAAAAAAAEAACACgAAAAAAA=</HashCode>
+      <FileName>ToolWindows\SearchListItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.ToolWindows.SearchWndPane1" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAACAAAAAAAAAAAAABAAAAAAgAAA=</HashCode>
+      <FileName>ToolWindows\SearchWndPane1.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.ToolWindows.SearchWndPane2" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAACAAAAAAAAAAAAABAAAAAAgAAA=</HashCode>
+      <FileName>ToolWindows\SearchWndPane2.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Babe.Lua.ToolWindows.SettingWindow" Collapsed="true">
+    <Position X="53.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAhDEAAAAAQCAQSAAIEAIhCIAAAAAgACAAgBAQA=</HashCode>
+      <FileName>ToolWindows\SettingWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.ToolWindows.SettingWndPane" Collapsed="true">
+    <Position X="55.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAACAAAAAAAAAAACAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ToolWindows\SettingWndPane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Babe.Lua.ToolWindows.WindowManager" Collapsed="true">
+    <Position X="46.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAgAAABAAAAAQAACAAEAAAAAAAAAAAAIAAAAAAIA=</HashCode>
+      <FileName>ToolWindows\WindowManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Microsoft.VisualStudioTools.Project.User32RECT" Collapsed="true">
+    <Position X="37.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAABAAAAAAAEgAAAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Misc\NativeMethods.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Microsoft.VisualStudioTools.Project.TASKDIALOG_BUTTON" Collapsed="true">
+    <Position X="34.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Misc\NativeMethods.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Microsoft.VisualStudioTools.Project.TASKDIALOGCONFIG" Collapsed="true">
+    <Position X="36" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAYBAGiABAAAAAAAAAAESCAAAAMQMGgAAYAAAAEBAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Misc\NativeMethods.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Microsoft.VisualStudioTools.Project._DROPFILES" Collapsed="true">
+    <Position X="29" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAACYAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\StructuresEnums.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Microsoft.VisualStudioTools.DebugTimer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAggEAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\DebugTimer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="Microsoft.VisualStudioTools.Parsing.SourceLocation" Collapsed="true">
+    <Position X="32.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAIgEgAjhAkAAAAAAAIAAQQFAAAEBByA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Navigation\SourceLocation.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Microsoft.LuaTools.Navigation.ILuaLibraryManager" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\Navigation\LuaLibraryManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.LuaTools.Project.ILuaLauncherOptions" Collapsed="true">
+    <Position X="39.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAIAgAIAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>LuaTools\Project\ILuaLauncherOptions.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.LuaTools.Project.ILuaLauncherProvider" Collapsed="true">
+    <Position X="41.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>LuaTools\Project\ILuaLauncherProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.LuaTools.Project.ILuaProject" Collapsed="true">
+    <Position X="43" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEAAAAAAAAAAAADEAAAAAAAAEAAAQAAAAAAAEAAAA=</HashCode>
+      <FileName>LuaTools\Project\ILuaProject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.VisualStudioTools.Project.IDiskBasedNode" Collapsed="true">
+    <Position X="34.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\IDiskBasedNode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.VisualStudioTools.Project.IBuildDependencyUpdate" Collapsed="true">
+    <Position X="29" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAQAAAAAACAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.VisualStudioTools.Project.IReferenceContainerProvider" Collapsed="true">
+    <Position X="53.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.VisualStudioTools.Project.IReferenceContainer" Collapsed="true">
+    <Position X="51.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.VisualStudioTools.Project.ISingleFileGenerator" Collapsed="true">
+    <Position X="32.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.VisualStudioTools.Project.IProjectLauncher" Collapsed="true">
+    <Position X="44.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\IProjectLauncher.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.VisualStudioTools.Project.IProjectPublisher" Collapsed="true">
+    <Position X="46.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAABAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\IProjectPublisher.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.VisualStudioTools.Project.IPublishFile" Collapsed="true">
+    <Position X="48.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\IPublishFile.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.VisualStudioTools.Project.IPublishProject" Collapsed="true">
+    <Position X="50" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAACAAIA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\IPublishProject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.VisualStudioTools.Project.IEventSource&lt;SinkType&gt;" Collapsed="true">
+    <Position X="36" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Misc\ConnectionPointContainer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.VisualStudioTools.Project.ICreateErrorInfo" Collapsed="true">
+    <Position X="30.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAABCAAAAAAAAAAAAAQAAAAQAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Misc\NativeMethods.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.VisualStudioTools.Navigation.ICustomSearchListProvider" Collapsed="true">
+    <Position X="32.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Navigation\ICustomSearchListProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.VisualStudioTools.Navigation.ILibraryManager" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAgAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Navigation\ILibraryManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.VisualStudioTools.Navigation.IScopeNode" Collapsed="true">
+    <Position X="55.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAACAAACAgAAAAAAAAAAQAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Navigation\IScopeNode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.VisualStudioTools.Navigation.ISimpleObject" Collapsed="true">
+    <Position X="30.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgkAAEACAACAJAAAAACAAQAAAFAAEAAIAABAAAAgVA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Navigation\ISimpleObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.VisualStudioTools.Navigation.ILibraryNodeVisitor" Collapsed="true">
+    <Position X="37.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Navigation\LibraryNode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Babe.Lua.ToolWindows.ISearchWnd" Collapsed="true">
+    <Position X="29" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>ToolWindows\SearchWndPane1.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Babe.Lua.Editor.EncodingName" Collapsed="true">
+    <Position X="37.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAhAAAABAAAAAAAAAAAAAAAAQAAAAAAAABAAQAA=</HashCode>
+      <FileName>Editor\EncodingDecide.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.LuaTools.Debugger.FrameKind" Collapsed="true">
+    <Position X="39.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAEAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\FrameKind.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.LuaTools.Debugger.LuaDebugOptions" Collapsed="true">
+    <Position X="48.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAABAAIASAAAAAAAAAAAIAAAAAAAIAAAACEAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\LuaDebugOptions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.LuaTools.Debugger.DebugEngine.DEBUGPROP_INFO_FLAGS" Collapsed="true">
+    <Position X="34.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAgAIAIAAAAAIAACBAAAACAECAAAAgAAAAAAE=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\DebuggerConstants.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.LuaTools.Debugger.Remote.SslErrorHandling" Collapsed="true">
+    <Position X="29" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>LuaTools\Debugger\DebugEngine\Remote\LuaRemoteProcess.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.VisualStudioTools.Project.BuildPropertyPageTag" Collapsed="true">
+    <Position X="29" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\BuildPropertyPage.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.VisualStudioTools.Project.CommonImageName" Collapsed="true">
+    <Position X="32.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAABAAAAAEAAAACAAACQAFBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\CommonProjectNode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.VisualStudioTools.Project.tagDVASPECT" Collapsed="true">
+    <Position X="30.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAIAAAAAAAAAAAAAACAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\DataObject.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.VisualStudioTools.Project.tagTYMED" Collapsed="true">
+    <Position X="32.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAACAAAAAAAAgAAAgYAAAAAAAAAQAAAAAAE=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\DataObject.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.VisualStudioTools.Project.HierarchyNodeFlags" Collapsed="true">
+    <Position X="44.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAACEAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\HierarchyNodeFlags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.VisualStudioTools.Project.TASKDIALOG_FLAGS" Collapsed="true">
+    <Position X="36" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAACAAEEIAAAAAggAAgAAAAAgAAAAAACAIEEAgCI=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Misc\NativeMethods.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.VisualStudioTools.Project.TASKDIALOG_COMMON_BUTTON_FLAGS" Collapsed="true">
+    <Position X="34.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAFAACAAAAAAAAACAIAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Misc\NativeMethods.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.VisualStudioTools.Project.WrapperToolAttributeValue" Collapsed="true">
+    <Position X="41.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\ProjectFileConstants.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.VisualStudioTools.Project.PropPageStatus" Collapsed="true">
+    <Position X="51.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAABAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\StructuresEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.VisualStudioTools.Project.QueryStatusResult" Collapsed="true">
+    <Position X="53.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAACAAAAAAAAEAgAAgAAAAAABAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\StructuresEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.VisualStudioTools.Project.HierarchyAddType" Collapsed="true">
+    <Position X="43" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\StructuresEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.VisualStudioTools.Project.CommandOrigin" Collapsed="true">
+    <Position X="30.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\StructuresEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.VisualStudioTools.Project.MSBuildResult" Collapsed="true">
+    <Position X="50" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAgBIAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\StructuresEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.VisualStudioTools.Project.WindowFrameShowAction" Collapsed="true">
+    <Position X="39.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgQAAAAEAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\StructuresEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.VisualStudioTools.Project.DropDataType" Collapsed="true">
+    <Position X="36" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\StructuresEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.VisualStudioTools.Project.UIHierarchyElement" Collapsed="true">
+    <Position X="37.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAAEEAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\StructuresEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.VisualStudioTools.Project.GlobalProperty" Collapsed="true">
+    <Position X="41.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABABFAAQAAAAAAAAAAAAAAgAgigAAAAIBAgA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\StructuresEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.VisualStudioTools.SharedCommands" Collapsed="true">
+    <Position X="55.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\SharedCommands.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.VisualStudioTools.Navigation.LibraryNodeType" Collapsed="true">
+    <Position X="46.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAGAAEEAQAAAAAAQAAAAAAAQFAAAAAAkwAEAACA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Navigation\LibraryNode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Boyaa.CallbackEventInitialize" Collapsed="true">
+    <Position X="36" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\LuaDebug.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Boyaa.CallbackEventCreateVM" Collapsed="true">
+    <Position X="30.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\LuaDebug.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Boyaa.CallbackEventDestroyVM" Collapsed="true">
+    <Position X="32.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\LuaDebug.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Boyaa.CallbackEventLoadScript" Collapsed="true">
+    <Position X="39.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAABAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\LuaDebug.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Boyaa.CallbackEventBreak" Collapsed="true">
+    <Position X="29" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAABAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\LuaDebug.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Boyaa.CallbackEventSetBreakpoint" Collapsed="true">
+    <Position X="46.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAABAAAAAAAAAAAAgEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\LuaDebug.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Boyaa.CallbackEventException" Collapsed="true">
+    <Position X="34.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAABAAAAAAAAAEAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\LuaDebug.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Boyaa.CallbackEventLoadError" Collapsed="true">
+    <Position X="37.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAABAAAAAAAAAEAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\LuaDebug.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Boyaa.CallbackEventMessage" Collapsed="true">
+    <Position X="41.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAAAAAAAAAAAAAAAAAAgEAAAACAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\LuaDebug.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Boyaa.CallbackEventSessionEnd" Collapsed="true">
+    <Position X="44.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\LuaDebug.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Boyaa.CallbackEventNameVM" Collapsed="true">
+    <Position X="43" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA=</HashCode>
+      <FileName>LuaTools\LuaDebug.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Microsoft.VisualStudioTools.Project.PFTASKDIALOGCALLBACK" Collapsed="true">
+    <Position X="48.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAACAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Misc\NativeMethods.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Microsoft.VisualStudioTools.Navigation.TextLineChangeEvent" Collapsed="true">
+    <Position X="50" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAQAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>D:\项目\Lua插件\BabePackage\BabeLuaNew\Common\Product\SharedProject\Navigation\ILibraryManager.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

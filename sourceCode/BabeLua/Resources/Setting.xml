@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+	<LuaSettings>
+		<CurrentSet></CurrentSet>
+	</LuaSettings>
+	<SearchFilters>
+		<local />
+		<do />
+		<while />
+		<for />
+		<end />
+		<function />
+		<if />
+		<then />
+		<elseif />
+		<and />
+		<or />
+		<not />
+		<true />
+		<false />
+		<nil />
+		<return />
+		<repeat />
+		<until />
+		<in />
+		<break />
+	</SearchFilters>
+	<UISettings>
+		<HideUselessView>0</HideUselessView>
+    <SearchResultRelativePath>0</SearchResultRelativePath>
+	</UISettings>
+	<KeyBinding></KeyBinding>
+	<Highlight>
+		<Table r="200" g="100" b="0"/>
+		<Function r="200" g="100" b="0"/>
+	</Highlight>
+	<Keywords>
+		<ClassDefinition>class</ClassDefinition>
+		<ClassConstructor>new</ClassConstructor>
+	</Keywords>
+</Settings>

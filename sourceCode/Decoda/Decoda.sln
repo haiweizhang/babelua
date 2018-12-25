@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Decoda", "Decoda\Decoda.vcxproj", "{E18C6E64-6F7C-4DC5-AB9E-55CCF0D52472}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LuaInject", "Decoda\LuaInject.vcxproj", "{6588800B-BAD3-4E4B-9D5B-46B2D1A73CB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E18C6E64-6F7C-4DC5-AB9E-55CCF0D52472}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E18C6E64-6F7C-4DC5-AB9E-55CCF0D52472}.Debug|Win32.Build.0 = Debug|Win32
+		{E18C6E64-6F7C-4DC5-AB9E-55CCF0D52472}.Release|Win32.ActiveCfg = Release|Win32
+		{E18C6E64-6F7C-4DC5-AB9E-55CCF0D52472}.Release|Win32.Build.0 = Release|Win32
+		{6588800B-BAD3-4E4B-9D5B-46B2D1A73CB2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6588800B-BAD3-4E4B-9D5B-46B2D1A73CB2}.Release|Win32.ActiveCfg = Release|Win32
+		{6588800B-BAD3-4E4B-9D5B-46B2D1A73CB2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

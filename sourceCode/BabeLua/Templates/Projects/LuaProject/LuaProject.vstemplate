@@ -1,0 +1,18 @@
+<VSTemplate Version="2.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Lua Application</Name>
+    <Description>A project for debug a lua application</Description>
+<!--    <Icon Package="{ed8196bf-ef4b-4434-bda7-44c6bf3f45e0}" ID="401" />-->
+    <Icon>LuaProject.ico</Icon>
+    <ProjectType>Lua</ProjectType>
+    <SortOrder>50</SortOrder>
+    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+    <CreateNewFolder>false</CreateNewFolder>
+    <DefaultName>LuaApplication</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="LuaProject.luaproj" ReplaceParameters="true">
+    </Project>
+  </TemplateContent>
+</VSTemplate>

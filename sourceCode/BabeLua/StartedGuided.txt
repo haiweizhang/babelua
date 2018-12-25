@@ -1,0 +1,11 @@
+1,Open Settings Window from menu - LUA - Settings;
+
+2,Change Tab to [Lua Folder];
+
+3,Choose your working path and other info from [New folder setting],then click [save];
+
+4,Choose the setting you added at step 3, click Select;
+
+5,Now you can see the files from [Folder Explorer] window;
+
+6,A temp_ project would be created for debug when first lua file be opened, you should set this project as StartUp Project.

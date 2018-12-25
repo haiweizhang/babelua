@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="ef2b9b1b-2d16-4088-95d9-904637d77b19" Version="1.5.7.0" Language="en-US" Publisher="Boyaa"/>
+    <DisplayName>BabeLua</DisplayName>
+    <Description xml:space="preserve">Babe lua tools for visual studio, Provides support for editing and debugging Lua programs.</Description>
+    <MoreInfo>https://babelua.codeplex.com</MoreInfo>
+    <License>license.txt</License>
+    <GettingStartedGuide>StartedGuided.txt</GettingStartedGuide>
+    <Icon>Resources\Package.ico</Icon>
+    <PreviewImage>Resources\StdPlugin.ico</PreviewImage>
+    <Tags>Editor, Programming Language, Lua</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="[11.0,12.0]" Id="Microsoft.VisualStudio.Premium" />
+    <InstallationTarget Version="[11.0,12.0]" Id="Microsoft.VisualStudio.Pro" />
+  </Installation>
+  <Dependencies>
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+  </Assets>
+</PackageManifest>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <!-- Ensures that if this file changes it forces a rebuild -->
+  <PropertyGroup>
+    <MSBuildAllProjects>
+      $(MSBuildAllProjects);$(TargetsPath)\Common.Build.Traversal.targets
+    </MSBuildAllProjects>
+  </PropertyGroup>
+
+  <Target Name="Rebuild">
+    <MSBuild Projects="@(ProjectFile)" Properties="%(ProjectFile.Properties)" Targets="Clean"/>
+    <MSBuild Projects="@(SequencedProjectFile)" Properties="%(SequencedProjectFile.Properties)" Targets="Clean"/>
+    <MSBuild Projects="@(ProjectFile)" Properties="%(ProjectFile.Properties)" Targets="Build"/>
+    <MSBuild Projects="@(SequencedProjectFile)" Properties="%(SequencedProjectFile.Properties)" Targets="Build"/>
+  </Target>
+
+  <Target Name="Build">
+    <MSBuild Projects="@(ProjectFile)" Properties="%(ProjectFile.Properties)" Targets="Build"/>
+    <MSBuild Projects="@(SequencedProjectFile)" Properties="%(SequencedProjectFile.Properties)" Targets="Build"/>
+  </Target>
+
+  <Target Name="Clean">
+    <MSBuild Projects="@(ProjectFile)" Properties="%(ProjectFile.Properties)" Targets="Clean"/>
+    <MSBuild Projects="@(SequencedProjectFile)" Properties="%(SequencedProjectFile.Properties)" Targets="Clean"/>
+  </Target>
+
+</Project>

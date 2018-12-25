@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Choose>
+    <When Condition=" '$(VisualStudioVersion)'=='11.0'  Or '$(TargetVisualStudioVersion)'=='VS110' ">
+      <PropertyGroup>
+        <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+        <FileUpgradeFlags>
+        </FileUpgradeFlags>
+        <UpgradeBackupLocation>
+        </UpgradeBackupLocation>
+        <OldToolsVersion>4.0</OldToolsVersion>
+      </PropertyGroup>
+    </When>
+    <When Condition=" '$(VisualStudioVersion)'=='12.0'  Or '$(TargetVisualStudioVersion)'=='VS120' ">
+      <PropertyGroup>
+        <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+        <FileUpgradeFlags>
+        </FileUpgradeFlags>
+        <UpgradeBackupLocation>
+        </UpgradeBackupLocation>
+        <OldToolsVersion>4.0</OldToolsVersion>
+      </PropertyGroup>
+    </When>
+  </Choose>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="..\ProjectBefore.settings" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectTypeGuids>{82b43b9b-a64c-4715-b499-d71e9ca2bd60};{60DC8134-EBA5-43B8-BCC9-BB4BC16C2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Microsoft.LuaTools</RootNamespace>
+    <AssemblyName>BabeLua</AssemblyName>
+    <ProjectGuid>{461C68AA-669F-4B8A-883B-367B7BA9D855}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <DeployExtension>True</DeployExtension>
+    <CreateVsixContainer>True</CreateVsixContainer>
+    <StartAction>Program</StartAction>
+    <StartProgram>$(DevEnvDir)devenv.exe</StartProgram>
+    <StartArguments>/rootSuffix Exp /Log</StartArguments>
+    <DefineConstants>$(DefineConstants);$(SignedSym)</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(InteractiveWindow)' != ''">
+    <DefineConstants>$(DefineConstants);INTERACTIVE_WINDOW</DefineConstants>
+  </PropertyGroup>
+  <Choose>
+    <When Condition="'$(VSTarget)' == '10.0'">
+      <ItemGroup>
+        <Reference Include="Microsoft.Windows.Design.Host, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>$(DevEnvDir)PrivateAssemblies\Microsoft.Windows.Design.Host.dll</HintPath>
+        </Reference>
+      </ItemGroup>
+    </When>
+    <When Condition="'$(VSTarget)' == '11.0' or '$(VSTarget)' == '12.0'">
+      <ItemGroup>
+        <Reference Include="Microsoft.Windows.Design.Host, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>$(DevEnvDir)PrivateAssemblies\Microsoft.Windows.Design.Host.dll</HintPath>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="envdte, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="envdte100, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="envdte80, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="EnvDTE90, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Build, Version=$(MicrosoftBuildAssemblyVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.Build.Conversion.$(MicrosoftBuildAssemblyVersionSuffix), Version=$(MicrosoftBuildAssemblyVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.Build.Engine, Version=$(MicrosoftBuildAssemblyVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.Build.Framework, Version=$(MicrosoftBuildAssemblyVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.Build.Tasks.$(MicrosoftBuildAssemblyVersionSuffix), Version=$(MicrosoftBuildAssemblyVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.Build.Utilities.$(MicrosoftBuildAssemblyVersionSuffix), Version=$(MicrosoftBuildAssemblyVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualStudio.CommandBars, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.ComponentModelHost, Version=$(VSTarget).0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.CoreUtility, Version=$(VSTarget).0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Debugger.Engine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" Condition="'$(VSTarget)' != '10.0'" />
+    <Reference Include="Microsoft.VisualStudio.Debugger.Interop.10.0, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Debugger.Interop.11.0, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" Condition="'$(VSTarget)' != '10.0'" />
+    <Reference Include="Microsoft.VisualStudio.Debugger.InteropA, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Designer.Interfaces, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Editor, Version=$(VSTarget).0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Language.Intellisense, Version=$(VSTarget).0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Language.NavigateTo.Interfaces, Version=$(VSTarget).0.0, Culture=neutral" />
+    <Reference Include="Microsoft.VisualStudio.Language.StandardClassification, Version=$(VSTarget).0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.OLE.Interop" />
+    <Reference Include="Microsoft.VisualStudio.Package.LanguageService.12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Shell.$(VSTarget), Version=$(VSTarget).0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Design, Version=$(VSTarget).0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Immutable.11.0, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" Condition="'$(VSTarget)' != '10.0'" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" Condition="'$(VSTarget)' != '10.0' and '$(VSTarget)' != '11.0'">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.8.0" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.9.0" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.10.0" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.11.0, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" Condition="'$(VSTarget)' != '10.0'">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TemplateWizardInterface, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Text.Data, Version=$(VSTarget).0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Text.Logic, Version=$(VSTarget).0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Text.UI, Version=$(VSTarget).0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Text.UI.Wpf, Version=$(VSTarget).0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.TextManager.Interop" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Immutable.10.0" />
+    <Reference Include="Microsoft.VisualStudio.TextManager.Interop.8.0, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.VSHelp, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.WizardFramework, Version=$(VSTarget).0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>.\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="VSLangProj, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="VSLangProj100, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="VSLangProj2, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="VSLangProj80, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VSTarget)' == '10.0'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.Settings, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.Settings.$(VSTarget), Version=$(VSTarget).0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="Classification\HighlightTag.cs" />
+    <Compile Include="Classification\LuaClassificationFormat.cs" />
+    <Compile Include="Classification\LuaClassificationType.cs" />
+    <Compile Include="Classification\LuaClassifier.cs" />
+    <Compile Include="Classification\LuaSyntaxErrorTagger.cs" />
+    <Compile Include="DataModel\FileManager.cs" />
+    <Compile Include="DataModel\IntellisenseHelper.cs" />
+    <Compile Include="DataModel\LuaFile.cs" />
+    <Compile Include="DataModel\LuaFunction.cs" />
+    <Compile Include="DataModel\LuaInnerTable.cs" />
+    <Compile Include="DataModel\LuaMember.cs" />
+    <Compile Include="DataModel\LuaTable.cs" />
+    <Compile Include="DataModel\OuterCompletionData.cs" />
+    <Compile Include="DataModel\TreeParser.cs" />
+    <Compile Include="Editor\EditorCommandFilter.cs" />
+    <Compile Include="Editor\EditorExtensions.cs" />
+    <Compile Include="Editor\EditorManager.cs" />
+    <Compile Include="Editor\EdtiorMargin.cs" />
+    <Compile Include="Editor\EncodingDecide.cs" />
+    <Compile Include="Editor\MarkPosGlyphFactory.cs" />
+    <Compile Include="Editor\MarkPosGlyphFactoryProvider.cs" />
+    <Compile Include="Editor\MarkPosTagger.cs" />
+    <Compile Include="Editor\OutlineMarginControl.xaml.cs">
+      <DependentUpon>OutlineMarginControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\TextViewCreationListener.cs" />
+    <Compile Include="Grammar\LuaBlockCommentTerminal.cs" />
+    <Compile Include="Grammar\LuaGrammar.cs" />
+    <Compile Include="Grammar\LuaLongStringTerminal.cs" />
+    <Compile Include="Grammar\LuaStringLiteral.cs" />
+    <Compile Include="Grammar\LuaTerminalNames.cs" />
+    <Compile Include="Helper\GCHelper.cs" />
+    <Compile Include="Helper\Logger.cs" />
+    <Compile Include="Helper\StringExtension.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helper\TextViewExtension.cs" />
+    <Compile Include="Helper\Updater.cs" />
+    <Compile Include="Intellisense\CompletionCommandFilter.cs" />
+    <Compile Include="Intellisense\LuaCompletion.cs" />
+    <Compile Include="Intellisense\LuaCompletionSet.cs" />
+    <Compile Include="Intellisense\LuaCompletionSource.cs" />
+    <Compile Include="Intellisense\LuaOutliner.cs" />
+    <Compile Include="LuaTools\Project\LuaGeneralPropertyPage.cs" />
+    <Compile Include="LuaTools\Project\LuaGeneralPropertyPageControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LuaTools\Project\LuaGeneralPropertyPageControl.Designer.cs">
+      <DependentUpon>LuaGeneralPropertyPageControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LuaTools\Project\LuaEditorFactory.cs" />
+    <Compile Include="LuaTools\ProvideEditorExtension2Attribute.cs" />
+    <Compile Include="LuaTools\LuaDebug.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Package\BabePackage.cs" />
+    <Compile Include="Package\DTEHelper.cs" />
+    <Compile Include="Package\Guids.cs" />
+    <Compile Include="LuaTools\LuaProject.cs" />
+    <Compile Include="Package\KeyBindingSet.cs" />
+    <Compile Include="Package\LuaSet.cs" />
+    <Compile Include="Package\MiniDump.cs" />
+    <Compile Include="Package\OleComponent.cs" />
+    <Compile Include="Package\PkgCmdID.cs" />
+    <Compile Include="Package\Setting.cs" />
+    <Compile Include="Package\UnhandledExceptionCatcher.cs" />
+    <Compile Include="Package\WindowFrameSink.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\FindWordFormatDefination.cs" />
+    <Compile Include="Editor\FindWordTag.cs" />
+    <Compile Include="Editor\FindWordTagger.cs" />
+    <Compile Include="ToolWindows\BoolVisibilityConventer.cs" />
+    <Compile Include="ToolWindows\Controls.cs" />
+    <Compile Include="ToolWindows\FolderWindow.xaml.cs">
+      <DependentUpon>FolderWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ToolWindows\FolderWindowItem.xaml.cs">
+      <DependentUpon>FolderWindowItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ToolWindows\FolderWndPane.cs" />
+    <Compile Include="ToolWindows\OutlineWindow.xaml.cs">
+      <DependentUpon>OutlineWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ToolWindows\OutlineWndPane.cs" />
+    <Compile Include="ToolWindows\SearchControl.xaml.cs">
+      <DependentUpon>SearchControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ToolWindows\SearchListItem.cs" />
+    <Compile Include="ToolWindows\SearchWndPane1.cs" />
+    <Compile Include="ToolWindows\SearchWndPane2.cs" />
+    <Compile Include="ToolWindows\SettingWindow.xaml.cs">
+      <DependentUpon>SettingWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ToolWindows\SettingWndPane.cs" />
+    <Compile Include="ToolWindows\WindowManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- VSIX -->
+    <Content Include="Decoda.dll">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="license.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Resource Include="Resources\copy.png" />
+    <Resource Include="Resources\delete.png" />
+    <Resource Include="Resources\file.png" />
+    <Resource Include="Resources\folder.png" />
+    <Resource Include="Resources\relative.png" />
+    <Content Include="Resources\KeyWords.xml" />
+    <Resource Include="Resources\search.png" />
+    <Resource Include="Resources\search2.png" />
+    <Content Include="Resources\Setting.xml" />
+    <Content Include="Resources\StdPlugin.ico">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Resources\UserKeyWords.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="StartedGuided.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\Files\LuaFile\LuaFile.lua">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\Files\LuaFile\LuaFile.vstemplate" />
+    <Content Include="Templates\NewItem\LuaFile.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\NewItem\NewLuaItems.vsdir">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\Projects\LuaProject\LuaProject.ico">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings2.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Resources\example.lua" />
+    <Content Include="Resources\lua5.1.lua" />
+    <None Include="source.extension.vsixmanifest" />
+    <None Include="Key.snk" />
+    <Content Include="msvcp100.dll">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="msvcr100.dll">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <EmbeddedResource Include="LuaTools\Project\LuaGeneralPropertyPageControl.resx">
+      <DependentUpon>LuaGeneralPropertyPageControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Solution.png" />
+    <Content Include="Templates\Projects\LuaProject\LuaProject.luaproj">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <VSCTCompile Include="BabeLua.vsct">
+      <ResourceName>Menus.ctmenu</ResourceName>
+      <SubType>Designer</SubType>
+    </VSCTCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Resources -->
+    <EmbeddedResource Include="LuaTools\Project\DefaultLuaLauncherOptions.resx">
+      <DependentUpon>DefaultLuaLauncherOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VSPackage.resx">
+      <SubType>Designer</SubType>
+      <ManifestResourceName>Microsoft.VSPackage</ManifestResourceName>
+    </EmbeddedResource>
+    <Compile Include="LuaTools\LuaConstants.cs" />
+    <Compile Include="LuaTools\Debugger\BreakpointEventArgs.cs" />
+    <Compile Include="LuaTools\Debugger\BreakpointHitEventArgs.cs" />
+    <Compile Include="LuaTools\Debugger\DebugConnectionListener.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\AD7BoundBreakpoint.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\AD7BreakpointResolution.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\AD7DocumentContext.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\AD7Engine.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\AD7EngineEventArgs.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\AD7Enums.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\AD7Events.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\AD7MemoryAddress.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\AD7Module.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\AD7PendingBreakpoint.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\AD7ProgramNode.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\AD7ProgramProvider.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\AD7Property.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\AD7StackFrame.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\AD7Thread.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\BreakpointManager.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\DebuggerConstants.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\EngineUtils.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\Remote\LuaRemoteDebugPort.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\Remote\LuaRemoteDebugPortSupplier.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\Remote\LuaRemoteDebugProcess.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\Remote\LuaRemoteDebugProgram.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\Remote\LuaRemoteEnumDebug.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\Remote\LuaRemoteEnumDebugProcesses.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\Remote\LuaRemoteEnumDebugPrograms.cs" />
+    <Compile Include="LuaTools\Debugger\DebugEngine\Remote\LuaRemoteProcess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LuaTools\Debugger\DebugEngine\UncalculatedAD7Expression.cs" />
+    <Compile Include="LuaTools\Debugger\ExceptionRaisedEventArgs.cs" />
+    <Compile Include="LuaTools\Debugger\Extensions.cs" />
+    <Compile Include="LuaTools\Debugger\FrameKind.cs" />
+    <Compile Include="LuaTools\Debugger\IdDispenser.cs" />
+    <Compile Include="LuaTools\Debugger\ModuleLoadedEventArgs.cs" />
+    <Compile Include="LuaTools\Debugger\OnPortOpenedHandler.cs" />
+    <Compile Include="LuaTools\Debugger\OutputEventArgs.cs" />
+    <Compile Include="LuaTools\Debugger\ProcessExitedEventArgs.cs" />
+    <Compile Include="LuaTools\Debugger\LuaBreakpoint.cs" />
+    <Compile Include="LuaTools\Debugger\LuaDebugOptions.cs" />
+    <Compile Include="LuaTools\Debugger\LuaEvaluationResult.cs" />
+    <Compile Include="LuaTools\Debugger\LuaException.cs" />
+    <Compile Include="LuaTools\Debugger\LuaModule.cs" />
+    <Compile Include="LuaTools\Debugger\LuaProcess.cs" />
+    <Compile Include="LuaTools\Debugger\LuaStackFrame.cs" />
+    <Compile Include="LuaTools\Debugger\LuaThread.cs" />
+    <Compile Include="LuaTools\Debugger\ThreadEventArgs.cs" />
+    <Compile Include="LuaTools\Editor\LanguagePreferences.cs" />
+    <Compile Include="LuaTools\Extensions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LuaTools\Intellisense\ReverseExpressionParser.cs" />
+    <Compile Include="LuaTools\Navigation\CodeWindowManager.cs" />
+    <Compile Include="LuaTools\Navigation\LuaFileLibraryNode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LuaTools\Navigation\LuaLanguageInfo.cs" />
+    <Compile Include="LuaTools\Navigation\LuaLibraryManager.cs" />
+    <Compile Include="LuaTools\Navigation\LuaLibraryNode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LuaTools\Navigation\TextViewFilter.cs" />
+    <Compile Include="LuaTools\Project\DefaultLauncherProvider.cs" />
+    <Compile Include="LuaTools\Project\DefaultLuaLauncher.cs" />
+    <Compile Include="LuaTools\Project\DefaultLuaLauncherOptions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LuaTools\Project\DefaultLuaLauncherOptions.Designer.cs">
+      <DependentUpon>DefaultLuaLauncherOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LuaTools\Project\ILuaLauncherOptions.cs" />
+    <Compile Include="LuaTools\Project\ILuaLauncherProvider.cs" />
+    <Compile Include="LuaTools\Project\ILuaProject.cs" />
+    <Compile Include="LuaTools\Project\LuaFileNode.cs" />
+    <Compile Include="LuaTools\Project\LuaProjectConfig.cs" />
+    <Compile Include="LuaTools\Project\LuaProjectFactory.cs" />
+    <Compile Include="LuaTools\Project\LuaProjectNode.cs" />
+    <Compile Include="LuaTools\Project\LuaProjectPackage.cs" />
+    <Compile Include="LuaTools\LuaClassifier.cs" />
+    <Compile Include="LuaTools\LuaClassifierProvider.cs" />
+    <Compile Include="LuaTools\LuaCoreConstants.cs" />
+    <Compile Include="LuaTools\LuaPredefinedClassificationTypeNames.cs" />
+    <Compile Include="Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <Visible>true</Visible>
+    </Compile>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <MergeWithCTO>true</MergeWithCTO>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="LuaTools\Navigation\NavigateTo\" />
+    <Folder Include="Test\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CompletionDB\*.idb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <IncludeInVSIX>True</IncludeInVSIX>
+      <VSIXSubPath>CompletionDB</VSIXSubPath>
+    </Content>
+    <EmbeddedResource Include="Resources\imagelis.bmp" />
+    <EmbeddedResource Include="Resources\Images.png" />
+    <Content Include="dbghelp.dll">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="LuaInject.dll">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Resources\Package.ico">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\Projects\LuaProject\LuaProject.vstemplate">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Editor\OutlineMarginControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ToolWindows\FolderWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ToolWindows\FolderWindowItem.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ToolWindows\OutlineWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ToolWindows\ResourceDic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ToolWindows\SearchControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ToolWindows\SettingWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Irony\Irony.csproj">
+      <Project>{d81f5c91-d7db-46e5-bc99-49488fb6814c}</Project>
+      <Name>Irony</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <!--
+    To specify a different registry root to register your package, uncomment the TargetRegistryRoot
+    tag and specify a registry root in it.
+    <TargetRegistryRoot></TargetRegistryRoot>
+    -->
+    <RegisterOutputPackage>true</RegisterOutputPackage>
+    <RegisterWithCodebase>true</RegisterWithCodebase>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DefineConstants>TRACE;DEBUG;DEV11;DEV11_OR_LATER;VER_INNER;</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DefineConstants>TRACE;DEV11;DEV11_OR_LATER;VER_INNER;</DefineConstants>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <Import Project="$(BuildRoot)\Common\Product\SharedProject\SharedProject.proj" />
+  <Import Project="..\ProjectAfter.settings" />
+</Project>
